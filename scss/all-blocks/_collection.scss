@@ -1,0 +1,122 @@
+.collection{
+    
+    margin-top: 136px;
+    
+    &__wrapper{
+        background-image: url("./../images/bg-collection.svg");
+        background-repeat: no-repeat; 
+        background-size: contain;
+        background-position: center top;
+        padding-top: 130px;
+        margin-bottom: 200px;
+    }
+    
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    &__item{
+        width: 255px;
+    }
+    
+    &__img{
+        width: 255px;
+        height: 193px;
+        object-fit: contain;
+        margin-bottom: 68px ;
+    }
+    
+    
+    &__heading{
+        width: 255px;
+        font-family: 'Fraunces', 'sans-serif';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center; 
+        color: #333D4B;
+        margin: 0;
+        padding-bottom: 24px;
+    }
+    
+    &__text{
+        width: 255px;
+        font-family: 'Barlow', 'sans-serif';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+        margin: 0;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    
+    .collection{
+        padding-right: 20px;
+        padding-left: 20px;
+        
+        &__top{
+            max-width: 689px;
+            width: 100%;
+            margin-top: -61px;
+            margin-left: 64px;
+            margin-bottom: 144px; 
+        }
+        
+        &__list{
+            display: flex;  
+            justify-content: space-between;
+            
+        }    
+        
+        &__item{
+            width: 573px;
+            height: 193px;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 32px;
+            
+        }
+
+        &__img{
+            width: 255px;
+            height: 193px;
+            padding-top: 10px;
+            object-fit: contain;
+            margin-bottom: 32px ;
+            margin-right: 32px;
+        }
+        
+        
+        
+        &__heading{
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: left;
+            padding-top: 41px;
+            
+        }
+        
+        &__text{
+            font-size: 15px;
+            line-height: 25px;
+            text-align: left;
+            
+        }
+        
+        
+    }
+}

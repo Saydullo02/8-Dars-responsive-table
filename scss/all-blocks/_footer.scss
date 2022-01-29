@@ -1,0 +1,140 @@
+
+
+.footer{
+    margin-bottom: 88px;
+    
+    &__bacground{
+        max-width: 1280px;
+        width: 100%;
+        background-color: #2C343E;
+        
+    }
+    
+    &__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 47px 85px;
+    }
+    
+    &__img{
+        width: 236px;
+        height: 26px;
+        object-fit: contain;
+    }
+    
+    &__left-list{
+        display: flex;
+        align-items: center;
+        margin-left: 103px;
+    }
+    
+    
+    &__left-link{
+        font-family: 'Barlow', 'sans-serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #83888F;
+        text-align: center;
+        margin-right: 33px;
+        letter-spacing: 0.923077px;
+        
+        &:hover{
+            color: white;
+        }
+    }
+    
+    &__left-link--active{
+        font-family: 'Barlow', 'sans-serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #83888F;
+        text-align: center;
+        margin-right: 33px;
+        letter-spacing: 0.923077px;
+        
+        &:hover{
+            color: white;
+        }
+    }
+    
+    &__right-list{
+        display: flex;
+        align-items: center;
+        margin-right: 24px;
+        
+    }
+    
+    &__right-link{
+        
+        margin-right: 24px;
+    }
+    
+    &__right-image{
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    
+    .footer{
+        margin-bottom: 72px;
+        
+        &__bacground{
+            width: 688px;
+            height: auto;
+            
+        }
+        
+        &__bottom{
+            flex-direction: column;
+        }
+        
+        &__left{
+            flex-direction: column;
+            padding: 54px;
+        }
+        
+        
+        &__img{
+            margin-top: 54px;
+            margin-bottom: 32px;
+        }
+        
+        &__left-list {
+            margin: 0;
+            margin-bottom: 65px;
+        }
+        
+        &__left-link--active{
+            font-family: 'Barlow', 'sans-serif';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            text-transform: uppercase;
+            color: #83888F;
+            text-align: center;
+            letter-spacing: 0.923077px;
+            
+        }
+    }
+    
